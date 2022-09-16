@@ -1,0 +1,15 @@
+name: SpigotPlugin
+version: 0.5
+author: David Holland
+main: me.David.SpigotPlugin
+api-version: 1.19
+
+commands:
+  kit:
+    description: adds a kit
+    usage: /kit
+    permission: SpigotPlugin.kitPermission
+  mutechat:
+    description: mutes chat
+    usage: /muteschat
+    permission: SpigotPlugin.Owner
